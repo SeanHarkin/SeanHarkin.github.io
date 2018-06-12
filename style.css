@@ -1,6 +1,32 @@
-h1{
-color: red;
+body{
+  background-color: #2e3442;
+  font-family: Helvetica;;
 }
+
+h1{
+  color: #babcc1;
+  position:
+}
+
 h2{
-color: blue;
+  color: #87898e;
+}
+
+h3{
+  color: #515151;
+}
+
+#navBar{
+  position: sticky;
+  top: 0%;
+  right: 0%;
+}
+
+#Stanford{
+  color: #e0e1e2;
+}
+
+#DoubleD{
+  color: #e0e1e2;
+  position: sti
 }
