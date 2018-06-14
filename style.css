@@ -1,6 +1,7 @@
 body{
   background-color: #2e3442;
-  font-family: Helvetica;;
+  font-family: Helvetica;
+  font-size: 14pt;
 }
 
 h1{
@@ -12,7 +13,11 @@ h2{
   color: #87898e;
 }
 
-h3{
+p{
+  color: #a4b8d8;
+}
+
+a{
   color: #515151;
 }
 
@@ -29,4 +34,24 @@ h3{
 #DoubleD{
   color: #e0e1e2;
   position: sti
+}
+
+#anniTitle{
+  color: #babcc1;
+  font-size: 100px;
+  position: fixed;
+  top: 75px;
+  left: 50px;
+}
+
+#newClass{
+  color: #babcc1;
+  font-size: 200px;
+}
+
+#DFXIntro{
+  position: fixed;
+  width: 500px;
+  top: 100px;
+  right: 50px;
 }
