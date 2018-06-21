@@ -6,6 +6,16 @@ $(document).ready(() => {
   		$('.image-caption',this).slideToggle('slow');
         });
 
+        $(".moveHexY").click(function() {
+              $(this).css("transform","translateY(100px)");
+            }
+        });
+
+        $(".moveHexX").click(function() {
+              $(this).css("transform","translateX(100px)");
+            }
+        });
+
       $("#titleX").click(function(){
         $("#titleX").fadeOut("slow");
         $("#titleE").fadeIn("slow");
